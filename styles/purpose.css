@@ -1,0 +1,127 @@
+.purpose {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-top: 50px;
+    /* flex-wrap: wrap; */
+
+    
+}
+
+.purpose div{
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(77, 72, 72);
+ 
+}
+
+.purpose div h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(15, 15, 15);
+    font-weight: 800;
+}
+
+
+.purpose-two{
+    position: relative;
+    display: flex;
+    width: 80vw;
+    margin: 0px auto;
+    height: 600px;
+    /* border: 1px solid; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 50px; */
+    /* overflow: hidden; */
+    /* border: 2px solid; */
+ 
+}
+
+
+.purpose-content {
+  /* position: absolute;
+  left: 10px;
+  transform: translateY(20%); */
+  /* top: 30px; */
+  /* border: 1px solid; */
+  min-width: 400px;
+  width: 600px;
+  flex: 2;
+  height: auto;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  /* box-shadow: .5px .4px 6px black; */
+}
+
+.purpose-content h1{
+    color: #ed1624;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.purpose-content p{
+    color: rgb(139, 147, 155);
+}
+
+.purpose-image {
+    height: 100%;
+    flex: 1;
+    min-width: 150px;
+    /* height: 300px; */
+    background-image: url('../assets/images/mission.jpg');
+    /* border: 2px solid red; */
+    background-repeat: no-repeat;
+    background-position:right center;
+    background-size: contain;
+}
+
+.purpose-content ol li{
+    margin-bottom: 15px;
+}
+
+.purpose-content ol{
+    padding: 30px
+}
+
+@media screen and (max-width: 600px){
+    .purpose-content {
+        position: relative;
+        left: 0px;
+        transform: translateY(0%);
+        width: 100%;
+        height: auto;
+        
+      }
+
+      .purpose-two{
+        position: relative;
+        display: flex;
+        width: 100vw;
+        margin: 0px auto;
+        height: 600px;
+        align-items: center;
+    }
+
+    .purpose-image {
+     display: none
+    }
+
+    .purpose div{
+        width: 85%;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .purpose-content h1{
+        color: #ed1624;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+}

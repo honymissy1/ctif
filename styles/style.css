@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   overflow-x: hidden;
+    max-width: 1500px;
+    margin: 0px auto;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+ }
+
+ a{
+    text-decoration: none;
+    color: rgb(29, 19, 19);
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+
+ }
+
+ .phone span:not(:nth-child(1)) {
+   display: none;
+ }
+
+ .phone span{
+   display: block;
+   margin-bottom: 10px;
+ }
+
+ .mobile-nav{
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   display: none;
+   color: white;
+   font-size: 20px;
+   cursor: pointer;
+ }
+
+ .logo span{
+   display: none;
+ }
+
+ nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight: 600;
+ }
+
+ .social {
+   display: flex;
+   gap: 20px
+ }
+ .active{
+    color: green
+ }
+
+ @media screen and (max-width: 600px){
+   nav{
+      flex-direction: column;
+      width: 300px;
+      height: 100vh;
+      transition: .3s ease-in-out;
+      position: fixed;
+      top: 0px;
+      z-index: 30;
+      background-color: white;
+   }
+   nav ul{
+      flex-direction: column;
+   }
+
+   .logo{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   .remove{
+      transform: translateX(-100%);
+   }
+
+   .logo span{
+      display: block;
+      cursor: pointer;
+   }
+
+   .phone span:not(:nth-child(1)) {
+      display: block;
+    }
+
+   
+ .mobile-nav{
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   display: block;
+   z-index: 1;
+  }
+ }
+
+ 
+ 

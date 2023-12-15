@@ -1,0 +1,37 @@
+.splide {
+    margin: 30px 0px;
+}
+
+.splide__slide{
+    height: 500px;
+
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px
+}
+
+.splide__slide div p{
+    margin: 10px 0px
+}
+
+.splide__slide div{
+    width:70%; 
+}
+
+.splide > h1{
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+
+
+.testimony-image{
+    width: 150px !important;
+    height: 150px !important;
+    margin: 20px auto;
+    border-radius: 50%;
+    background: black;
+}
+

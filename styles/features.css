@@ -1,0 +1,51 @@
+.features{
+    background-image: url('../assets/images/purpose.webp');
+    background-attachment: fixed;
+    color: rgb(233, 233, 233);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 40px;
+    display: flex;
+    gap: 20px;
+    min-height: 400px;
+    height: auto;
+    background-position: bottom;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+    text-shadow: .3px .3px 4px rgb(0, 0, 0);
+}
+
+.features div h1{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+ 
+.features div{
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.features .title{
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+@media screen and (max-width: 600px) {
+    .features{
+        padding: 10px;
+    }
+
+    .features .title{
+        text-align: center;
+        letter-spacing: 5px;
+        font-size: 30px;
+        font-weight: bolder;
+      
+    }
+}

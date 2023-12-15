@@ -1,0 +1,38 @@
+.resources-container{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    min-height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.resources-content{
+    width: 200px; 
+    height: 250px; 
+    border: 1px solid;
+    border-radius: 5px;
+    overflow: hidden;
+     position: relative;
+     box-shadow: .3px .2px 3px black;
+}
+
+.resources-content div{
+    font-size: 100px; 
+    margin: 0px auto;
+     text-align: center;
+      color: green
+}
+
+.resources-content audio{
+    width: 100%;
+    position: absolute; 
+    bottom: 0px;
+    background-color: green;
+}
+
+.resources-content p{
+    text-align: center;
+
+}

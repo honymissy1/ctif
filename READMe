@@ -1,0 +1,16 @@
+- Content for the upcoming events
+
+  1. Title of the programme....
+  2. Date / Time
+  3. Venue / Location
+  4. Purpose / Description of programme.
+
+  [
+    {
+        id: 1,
+        title: "God's Assurance of Mercy",
+        date: "January 12 2023, 5:00",
+        venue: "No 2 Adekunle Street Opp Orita Market Ibadan, Nigeria",
+        description: "This prorammme was organized by the inspiration of the Holy Spirit to teach us about the ways of God"
+    }
+  ]
